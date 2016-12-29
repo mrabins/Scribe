@@ -25,8 +25,8 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WbJ-wU-icg">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="55"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="SCRIBE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k3m-tm-WTK">
-                                        <rect key="frame" x="140" y="12" width="85" height="30"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SCRIBE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k3m-tm-WTK">
+                                        <rect key="frame" x="147" y="11.5" width="81.5" height="31.5"/>
                                         <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="23"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
@@ -34,6 +34,8 @@
                                 </subviews>
                                 <color key="backgroundColor" red="0.85882352941176465" green="0.030585171568627445" blue="0.009893207282913161" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
+                                    <constraint firstItem="k3m-tm-WTK" firstAttribute="centerY" secondItem="WbJ-wU-icg" secondAttribute="centerY" id="8Dw-uy-rOm"/>
+                                    <constraint firstItem="k3m-tm-WTK" firstAttribute="centerX" secondItem="WbJ-wU-icg" secondAttribute="centerX" id="E1t-HD-Jb9"/>
                                     <constraint firstItem="k3m-tm-WTK" firstAttribute="centerX" secondItem="WbJ-wU-icg" secondAttribute="centerX" id="mvL-vj-mrc"/>
                                     <constraint firstItem="k3m-tm-WTK" firstAttribute="centerY" secondItem="WbJ-wU-icg" secondAttribute="centerY" id="pNB-MH-TWE"/>
                                     <constraint firstAttribute="height" constant="55" id="yDE-Hi-PXp"/>
@@ -55,8 +57,8 @@
                                     <action selector="playButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="a0V-ia-NBp"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="PLAY &amp; TRANSCRIBE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VVL-p1-P3X">
-                                <rect key="frame" x="76" y="629" width="223" height="30"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PLAY &amp; TRANSCRIBE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VVL-p1-P3X">
+                                <rect key="frame" x="82" y="630" width="211" height="29"/>
                                 <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="21"/>
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
